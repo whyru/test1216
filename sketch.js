@@ -5,7 +5,7 @@ let factor=100;
 let speedSlider;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(400, 400);
   //DOM, createSlider(최소값, 최대값, 시작값)
   speedSlider=createSlider(0, 20, 5, 0.1);
   //Vector=(x, y, z)
